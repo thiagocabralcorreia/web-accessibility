@@ -1,6 +1,7 @@
+"use client";
 import styled from "styled-components";
 
-export const Container = styled.main`
+export const Container = styled.div`
   margin: 0 auto;
   max-width: 750px;
 `;
@@ -10,6 +11,7 @@ export const Title = styled.h1`
   line-height: 1.15;
   font-size: 4rem;
   text-align: center;
+  ${({ theme }) => `color: ${theme.colors.secondary};`}
 `;
 
 export const Description = styled.p`
