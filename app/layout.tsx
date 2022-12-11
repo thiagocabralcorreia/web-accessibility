@@ -1,4 +1,4 @@
-import "../styles/globals.css";
+import { PageContainer } from "../styles/pages/layout";
 import Provider from "./Provider";
 
 export default function RootLayout({
@@ -10,7 +10,7 @@ export default function RootLayout({
     <html>
       <head />
       <Provider>
-        <body>{children}</body>
+        <PageContainer>{children}</PageContainer>
       </Provider>
     </html>
   );
