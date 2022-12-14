@@ -1,18 +1,15 @@
 "use client";
-import { ThemeProvider, DefaultTheme } from "styled-components";
+import { ThemeProvider } from "next-themes";
 import GlobalStyle from "../styles/global";
-import light from "../styles/themes/light";
-import dark from "../styles/themes/dark";
-import { useState } from "react";
+import { ThemeContextProvider } from "../context/ThemeContext";
 
-//     <ThemeProvider enableSystem={true} attribute="class">
 export default function Provider({ children }: { children: React.ReactNode }) {
-  const [currentTheme, setCurrentTheme] = useState<DefaultTheme>(light);
-
   return (
     <>
       <GlobalStyle />
-      <ThemeProvider theme={currentTheme}>{children}</ThemeProvider>
+      <ThemeProvider enableSystem={true}>
+        <ThemeContextProvider>{children}</ThemeContextProvider>
+      </ThemeProvider>
     </>
   );
 }

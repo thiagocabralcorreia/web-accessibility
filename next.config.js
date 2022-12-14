@@ -9,10 +9,17 @@ const nextConfig = {
   ],
   experimental: {
     appDir: true,
+    swcMinifyDebugOptions: {
+      compress: {
+        defaults: true,
+        side_effects: false,
+      },
+    },
   },
   darkMode: "class",
   swcMinify: true,
   compiler: {
+    // ssr and displayName are configured by default
     styledComponents: true,
   },
 };
