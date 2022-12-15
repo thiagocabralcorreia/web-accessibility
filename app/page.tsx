@@ -20,11 +20,16 @@ export default function Home() {
           href="https://www.w3.org/TR/WCAG21/"
           target="_blank"
           rel="noopener noreferrer"
-          className="hover:text-sky-700 active:bg-blue-500 visited:text-purple-700 underline underline-offset-1"
+          className="active:bg-blue-500 visited:text-purple-700 underline underline-offset-1"
         >
           Web Content Accessibility Guidelines (WCAG)
         </a>
         .
+      </p>
+
+      <p className="text-xl md:text-2xl text-gray-700 mb-8 md:mb-10">
+        Visit the tips page to check out 20 recommendations for making Web
+        content more accessible.
       </p>
     </div>
   );
