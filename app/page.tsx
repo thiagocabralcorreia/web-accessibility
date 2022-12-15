@@ -1,6 +1,8 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
-    <div className="flex-1 max-w-5xl justify-center px-10 md:px-24">
+    <div className="flex-1 max-w-5xl justify-center px-10 md:px-24 m-auto">
       <h1 className="text-blue-500 text-4xl lg:text-8xl md:text-6xl font-bold mb-10 md:mb-14">
         Web Accessibility
       </h1>
@@ -20,7 +22,7 @@ export default function Home() {
           href="https://www.w3.org/TR/WCAG21/"
           target="_blank"
           rel="noopener noreferrer"
-          className="active:bg-blue-500 visited:text-purple-700 underline underline-offset-1"
+          className="text-blue-500 underline underline-offset-1"
         >
           Web Content Accessibility Guidelines (WCAG)
         </a>
@@ -28,8 +30,13 @@ export default function Home() {
       </p>
 
       <p className="text-xl md:text-2xl text-gray-700 mb-8 md:mb-10">
-        Visit the tips page to check out 20 recommendations for making Web
-        content more accessible.
+        Visit the{" "}
+        <Link href={"/tips"}>
+          <span className="text-blue-500 underline underline-offset-1">
+            tips page
+          </span>
+        </Link>{" "}
+        to check out 20 recommendations for making Web content more accessible.
       </p>
     </div>
   );
