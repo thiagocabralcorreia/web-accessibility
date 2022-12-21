@@ -11,8 +11,9 @@ function Footer() {
           rel="noopener noreferrer"
           className="hover:text-blue-500 ease-out duration-500"
         >
-          <FontAwesomeIcon className="h-9 pr-6" icon={faGithub} />
+          <FontAwesomeIcon className="h-9" icon={faGithub} />
         </a>
+        <div className="mr-6" />
         <a
           href="https://www.linkedin.com/in/thiago-cabral-correia/"
           target="_blank"
