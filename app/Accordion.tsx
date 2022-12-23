@@ -1,10 +1,10 @@
 "use client";
 import { Disclosure } from "@headlessui/react";
 import { ChevronUpIcon } from "@heroicons/react/20/solid";
-import { ITip } from "../typings";
+import { Tip } from "../typings";
 
 interface TipProps {
-  tip: ITip;
+  tip: Tip;
 }
 
 export default function Accordion({ tip }: TipProps) {

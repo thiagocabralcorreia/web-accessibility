@@ -3,7 +3,7 @@ import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 function Footer() {
   return (
-    <footer className="w-full items-center justify-center py-8 px-10 md:px-24 mt-24 bg-stone-200">
+    <footer>
       <div className="flex w-full items-center justify-center mb-3">
         <a
           href="https://github.com/thiagocabralcorreia"

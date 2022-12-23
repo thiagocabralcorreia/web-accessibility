@@ -1,9 +1,11 @@
-export type ITip = {
+export type Tip = {
   id?: string;
   title: string;
   text: string;
 };
 
-export type ITips = {
-  tips: ITip[];
+export type Tips = {
+  tips: Tip[];
 };
+
+export type NavLinkType = "tips" | "about";
