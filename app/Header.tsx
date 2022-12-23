@@ -10,9 +10,12 @@ function Header() {
       </Link>
       <div className="flex">
         <Link href={"/tips"}>
-          <p className="text-xl font-bold text-white mr-10">TIPS</p>
+          <p className="text-xl font-bold text-white">TIPS</p>
         </Link>
-        <p className="text-xl font-bold text-white">ABOUT</p>
+        <div className="mr-10" />
+        <Link href={"/about"}>
+          <p className="text-xl font-bold text-white">ABOUT</p>
+        </Link>
       </div>
     </header>
   );
