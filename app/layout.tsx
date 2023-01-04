@@ -1,6 +1,8 @@
 import "../styles/globals.css";
 import Footer from "./Footer";
 import Header from "./Header";
+import Providers from "./Providers";
+import ThemeSwitcher from "./ThemeSwitcher";
 
 export default function RootLayout({
   children,
@@ -12,9 +14,14 @@ export default function RootLayout({
       <head />
 
       <body>
-        <Header />
-        <div>{children}</div>
-        <Footer />
+        <Providers>
+          <Header />
+          <div className="sm:hidden flex w-full justify-end pt-10 pr-10">
+            <ThemeSwitcher />
+          </div>
+          <div>{children}</div>
+          <Footer />
+        </Providers>
       </body>
     </html>
   );

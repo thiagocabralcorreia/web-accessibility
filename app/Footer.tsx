@@ -9,7 +9,7 @@ function Footer() {
           href="https://github.com/thiagocabralcorreia"
           target="_blank"
           rel="noopener noreferrer"
-          className="hover:text-blue-500 ease-out duration-500"
+          className="hover:text-blue-500 dark:hover:text-blue-400 ease-out duration-500"
         >
           <FontAwesomeIcon className="h-9" icon={faGithub} />
         </a>
@@ -18,7 +18,7 @@ function Footer() {
           href="https://www.linkedin.com/in/thiago-cabral-correia/"
           target="_blank"
           rel="noopener noreferrer"
-          className="hover:text-blue-500 ease-out duration-500"
+          className="hover:text-blue-500 dark:hover:text-blue-400 ease-out duration-500"
         >
           <FontAwesomeIcon className="h-9" icon={faLinkedin} />
         </a>
