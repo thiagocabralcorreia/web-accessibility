@@ -6,6 +6,7 @@ function Footer() {
     <footer>
       <div className="flex w-full items-center justify-center mb-3">
         <a
+          title="Visit Thiago Cabral Correia's profile on GitHub"
           href="https://github.com/thiagocabralcorreia"
           target="_blank"
           rel="noopener noreferrer"
@@ -15,6 +16,7 @@ function Footer() {
         </a>
         <div className="mr-6" />
         <a
+          title="Visit Thiago Cabral Correia's profile on LinkedIn"
           href="https://www.linkedin.com/in/thiago-cabral-correia/"
           target="_blank"
           rel="noopener noreferrer"

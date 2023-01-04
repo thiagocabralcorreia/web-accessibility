@@ -8,7 +8,10 @@ function Header() {
   return (
     <header>
       <Link href={"/"}>
-        <div className="rounded-full bg-white dark:bg-black transition-all duration-300">
+        <div
+          title="Go home page"
+          className="rounded-full bg-white dark:bg-black transition-all duration-300"
+        >
           <h2 className="text-3xl font-bold text-blue-500 dark:text-blue-400 px-2 py-3">
             WA
           </h2>
@@ -23,7 +26,7 @@ function Header() {
             </React.Fragment>
           );
         })}
-        <div className="max-sm:hidden ml-10">
+        <div title="Change the theme" className="max-sm:hidden ml-10">
           <ThemeSwitcher />
         </div>
       </div>

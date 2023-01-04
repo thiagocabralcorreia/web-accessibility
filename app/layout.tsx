@@ -16,7 +16,10 @@ export default function RootLayout({
       <body>
         <Providers>
           <Header />
-          <div className="sm:hidden flex w-full justify-end pt-10 pr-10">
+          <div
+            title="Change the theme"
+            className="sm:hidden flex w-full justify-end pt-10 pr-10"
+          >
             <ThemeSwitcher />
           </div>
           <div>{children}</div>
