@@ -8,4 +8,4 @@ export type Tips = {
   tips: Tip[];
 };
 
-export type NavLink = "tips" | "about";
+export type NavLinkType = "tips" | "about";

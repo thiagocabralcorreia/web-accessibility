@@ -1,27 +1,45 @@
-# Next.js + Tailwind CSS Example
+# WEB ACCESSIBILITY WEBSITE
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.2)](https://tailwindcss.com/blog/tailwindcss-v3-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+Responsive website developed to achieve theoretical knowledge and practical study on web accessibility, following good practices, such as use of contrast, alternative theme, understandable interface and easy navigation, with keyboard interaction. Project developed with Next.js, TypeScript and Tailwind.
 
-## Deploy your own
+![alt text: Web Accessibility website pages.](https://github.com/thiagocabralcorreia/web-accessibility/tree/main/public/wa-cover.png)
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+## Stacks
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+- Next.js
+- TypeScript
+- Tailwind
+- Apiary
+- Styled-Components
+- [IMDb API](https://imdb-api.com/)
 
-## How to use
+## Extra Packages Installed
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+- [Headless UI](https://headlessui.com)
+- [Fontawesome](https://fontawesome.com/docs/web/use-with/react/)
+- [React Loader Spinner](https://www.npmjs.com/package/react-loader-spinner)
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
+## Available Scripts
+
+Clone the repository:
+
+```
+  $ git clone https://github.com/thiagocabralcorreia/web-accessibility
 ```
 
-```bash
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
+In the project directory, you can install dependencies:
+
+```
+  $ npm install
 ```
 
-```bash
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
+And run the app in the development mode:
+
+```
+  $ npm run dev
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The page will reload if you make edits.
+
+_Web Accessibility project by [Thiago Cabral Correia](https://www.linkedin.com/in/thiago-cabral-correia/) - 2023_
