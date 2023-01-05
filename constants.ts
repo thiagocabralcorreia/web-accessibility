@@ -1,3 +1,3 @@
-import { NavLinks } from "./typings";
+import { NavLink } from "./typings";
 
-export const links: NavLinks[] = ["tips", "about"];
+export const links: NavLink[] = ["tips", "about"];
