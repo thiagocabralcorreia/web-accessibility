@@ -2,7 +2,7 @@
 
 Responsive website developed to achieve theoretical knowledge and practical study on web accessibility, following good practices, such as use of contrast, alternative theme, understandable interface and easy navigation, with keyboard interaction. Project developed with Next.js, TypeScript and Tailwind.
 
-![alt text: Web Accessibility website pages.](https://github.com/thiagocabralcorreia/web-accessibility/tree/main/public/wa-cover.png)
+![alt text: Web Accessibility website pages.](https://github.com/thiagocabralcorreia/web-accessibility/blob/main/public/wa-cover.png)
 
 ## Stacks
 
