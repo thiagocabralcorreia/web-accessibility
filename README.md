@@ -17,7 +17,6 @@ Responsive website developed to achieve theoretical knowledge and practical stud
 
 - [Headless UI](https://headlessui.com)
 - [Fontawesome](https://fontawesome.com/docs/web/use-with/react/)
-- [React Loader Spinner](https://www.npmjs.com/package/react-loader-spinner)
 
 ## Available Scripts
 
